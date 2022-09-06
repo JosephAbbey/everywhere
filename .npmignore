@@ -1,0 +1,13 @@
+node/
+src/
+target/
+wasm/
+build.sh
+Cargo.lock
+Cargo.toml
+
+out/everywhere.js
+out/everywhere.wasm
+
+out/everywhere
+out/everywhere.exe

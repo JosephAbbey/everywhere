@@ -1,0 +1,20 @@
+[package]
+name = "node"
+version = "0.1.0"
+license = "ISC"
+edition = "2018"
+build = "../src/node-build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+path = "../src/node-lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+everywhere = { path = ".." }
+
+[dependencies.neon]
+version = "0.10.1"
+default-features = false
+features = ["napi-6"]

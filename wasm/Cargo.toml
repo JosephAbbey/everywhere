@@ -1,0 +1,9 @@
+[package]
+name = "everywhere"
+version = "0.1.0"
+edition = "2021"
+build = "../src/wasm-build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+path = "../src/wasm-lib.rs"
