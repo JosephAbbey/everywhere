@@ -13,4 +13,4 @@ Builds:
  - Rust `/` as seen in `Cargo.toml`
  - Web `out/everywhere.wasm`, `out/everywhere.js`
 
-The library code resides in `src/lib.rs`, the bin in `src/main.rs`.
+The lib code resides in `src/lib.rs`, the bin in `src/main.rs`.
