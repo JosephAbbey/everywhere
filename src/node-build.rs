@@ -10,7 +10,7 @@ macro_rules! everywhere {
         use std::fs::File;
         use std::io::prelude::*;
         fn main() {
-            File::create("../out/everywhere.d.ts").expect("Couldn't create .d.ts file")
+            File::create("../index.d.ts").expect("Couldn't create .d.ts file")
                         .write_all(
                             (String::new() $(
                                 + "export function " + stringify!($fname) + "(" + &vec![$(

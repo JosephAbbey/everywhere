@@ -2,8 +2,8 @@
     "name": "@everywhere/node",
     "version": "0.1.0",
     "description": "",
-    "main": "./out/everywhere.node",
-    "types": "./out/everywhere.d.ts",
+    "main": "./index.node",
+    "types": "./index.d.ts",
     "scripts": {},
     "author": "JosephAbbey <joseph@abbey1.org.uk>",
     "license": "ISC"
